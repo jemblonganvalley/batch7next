@@ -1,0 +1,36 @@
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  padding: 0 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.brand {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.menu li {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.menu li:hover {
+  font-weight: 300;
+}
