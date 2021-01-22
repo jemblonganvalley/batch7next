@@ -3,7 +3,7 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -119,4 +119,29 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.hero {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/image/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  color: ghostwhite;
+  font-size: 5rem;
+  font-weight: 200;
+}
+
+.wellcome {
+  width: 100vw;
+  height: auto;
+  padding: 40px 10%;
+  display: flex;
+  gap: 20px;
 }

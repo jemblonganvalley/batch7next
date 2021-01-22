@@ -6,7 +6,7 @@
   justify-content: flex-start;
   align-items: center;
   background-color: whitesmoke;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
 }
