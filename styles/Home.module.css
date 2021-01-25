@@ -143,5 +143,59 @@
   height: auto;
   padding: 40px 10%;
   display: flex;
+  gap: 40px;
+}
+
+.wellcome_content h3 {
+  font-size: 2rem;
+}
+
+.wellcome_image {
+  width: 50%;
+  object-fit: cover;
+}
+
+.history {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  padding: 40px 10%;
+}
+
+.history_left,
+.history_right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history_left {
+  flex-direction: column;
+}
+
+.history_left h3 {
+  font-size: 2rem;
+}
+
+.history_right {
+  position: relative;
+}
+
+.history_right h1 {
+  position: absolute;
+  font-size: 6rem;
+  width: 70%;
+  color: rgb(225, 161, 255);
+  margin-left: 60px;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.silabus {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 10%;
   gap: 20px;
 }

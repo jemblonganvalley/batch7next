@@ -1,5 +1,6 @@
 html,
 body {
+  background-color: ghostwhite;
   overflow-x: hidden;
   padding: 0;
   margin: 0;
@@ -14,4 +15,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
 }

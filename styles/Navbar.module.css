@@ -1,7 +1,7 @@
 .navbar {
   width: 100vw;
   height: 10vh;
-  padding: 0 18px;
+  padding: 0 10%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -15,20 +15,25 @@
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 200;
+  position: absolute;
 }
 
 .menu {
   height: 100%;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   list-style-type: none;
+  /* position: absolute; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu li {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 200;
+  font-size: 1.3rem;
 }
 
 .menu li:hover {

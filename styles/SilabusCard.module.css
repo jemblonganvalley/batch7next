@@ -1,0 +1,26 @@
+.silabus_card {
+  max-width: 49%;
+  padding: 20px;
+  display: flex;
+  background-color: ghostwhite;
+  border: 0.5px solid rgb(211, 211, 211);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  gap: 20px;
+}
+
+.sc_left,
+.sc_right {
+  width: 50%;
+  position: relative;
+}
+
+.sc_left img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  /* margin-bottom: 50px; */
+  top: -20%;
+  transform: rotate(-5deg);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
