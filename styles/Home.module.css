@@ -127,7 +127,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/image/background.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -144,6 +143,7 @@
   padding: 40px 10%;
   display: flex;
   gap: 40px;
+  /* flex-direction: row-reverse; */
 }
 
 .wellcome_content h3 {
