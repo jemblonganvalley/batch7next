@@ -1,9 +1,10 @@
 import s from "../../styles/Home.module.css";
 import Head from "next/head";
+import Layouts from "../../components/Layouts";
 
 const Contact = () => {
   return (
-    <>
+    <Layouts>
       <Head>
         <title>Contact</title>
         <meta name="description" content="page contact jvalley" />
@@ -14,7 +15,7 @@ const Contact = () => {
       <main className={s.container}>
         <h1>contact</h1>
       </main>
-    </>
+    </Layouts>
   );
 };
 

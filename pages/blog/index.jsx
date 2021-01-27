@@ -1,9 +1,10 @@
 import styles from "../../styles/Home.module.css";
 import Head from "next/head";
+import Layouts from "../../components/Layouts";
 
 const Blog = () => {
   return (
-    <>
+    <Layouts>
       <Head>
         <title>Blog</title>
         <meta name="description" content="page blog jvalley" />
@@ -23,7 +24,7 @@ const Blog = () => {
           dolores, aspernatur voluptatem facere.
         </p>
       </main>
-    </>
+    </Layouts>
   );
 };
 

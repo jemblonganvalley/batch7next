@@ -4,10 +4,22 @@ import React, { useState } from "react";
 const index = () => {
   //show password
   const [show, setShow] = useState(false);
-
+  const handleLogin = (e) => {
+    const username = process.env.USERNAME;
+    const password = process.env.PASSWORD;
+    e.preventDefault();
+    const input_username = e.target.username.value;
+    const input_password = e.target.password.value;
+    if (input_username === username && input_password === password) {
+      alert("login berhasil");
+    } else {
+      alert("periksa kembali account anda..");
+    }
+  };
   return (
     <div className={styles.container}>
-      <form className={styles.login_form}>
+      <form className={styles.login_form} onSubmit={handleLogin}>
+        <h3>Admin Dashboard Login</h3>
         <div className={styles.form_group}>
           <label htmlFor="username">username</label>
           <input type="text" name="username" id="username" />
@@ -29,10 +41,12 @@ const index = () => {
                 setShow(!show);
               }}
             ></input>
-            <small>show password</small>
+            <label htmlFor="show_password">
+              <small>show password</small>
+            </label>
           </div>
           <div className={styles.form_group}>
-            <button>login</button>
+            <button type="submit">login</button>
           </div>
         </div>
       </form>

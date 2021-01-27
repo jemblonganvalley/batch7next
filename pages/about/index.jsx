@@ -3,11 +3,12 @@ import styles from "../../styles/Home.module.css";
 import Head from "next/head";
 import Hero from "../../components/Hero";
 import CardContent from "../../components/CardContent";
+import Layouts from "../../components/Layouts";
 
 const About = () => {
   const [data, setData] = useState("page about");
   return (
-    <>
+    <Layouts>
       <Head>
         <title>About</title>
         <meta name="description" content="page about jvalley" />
@@ -70,7 +71,7 @@ const About = () => {
            `}
         />
       </main>
-    </>
+    </Layouts>
   );
 };
 
