@@ -4,8 +4,16 @@ import Divider from "../components/Divider";
 import SilabusCard from "../components/SilabusCard";
 import Hero from "../components/Hero";
 import CardContent from "../components/CardContent";
+import { useEffect } from "react";
+import axios from "axios";
 
-export default function Home() {
+export default function Home({ home_data }) {
+  useEffect(() => {
+    console.log(home_data);
+  }, []);
+
+  // jemblonganvalley@gmail.com
+
   return (
     <>
       <Head>
@@ -22,23 +30,17 @@ export default function Home() {
         />
       </Head>
       <div className={styles.container}>
-        <Hero
-          title="Belajar Pemograman Gratis"
-          image="https://picsum.photos/seed/150/600"
-        />
+        <Hero title={home_data.hero_title} image={home_data.hero_image} />
 
-        <CardContent
-          image="https://picsum.photos/seed/14/600"
-          title="Selamat datang"
-          content={`
-            <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
-            ea beatae ipsa placeat sed similique est quia dolorum, repellat
-            quo? Voluptatem voluptate facere porro, repudiandae dolorem
-            corporis numquam fuga quidem?
-            </p>
-          `}
-        />
+        {/* {home_data.content.map((e) => (
+          <CardContent
+            key={e.id}
+            image={e.image}
+            title={e.title}
+            content={e.body}
+            reverse={e.reverse}
+          />
+        ))} */}
 
         <Divider text="HISTORY" />
 
@@ -97,4 +99,20 @@ export default function Home() {
       </div>
     </>
   );
+}
+
+//mendapatkan data dari api json server
+export async function getServerSideProps() {
+  const res = await axios("http://localhost:8000/home", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+
+  return {
+    props: {
+      home_data: res.data,
+    },
+  };
 }

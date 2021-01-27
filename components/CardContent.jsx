@@ -8,7 +8,7 @@ const CardContent = ({ image, title, content, tuker }) => {
         flexDirection: tuker ? "row-reverse" : "row",
       }}
     >
-      <img src={image} alt="section image" class={styles.wellcome_image} />
+      <img src={image} alt="section image" className={styles.wellcome_image} />
 
       <div className={styles.wellcome_content}>
         <h3>{title}</h3>

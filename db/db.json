@@ -1,0 +1,72 @@
+{
+  "home": {
+    "hero_title": "Belajar Pemograman",
+    "hero_image": "https://picsum.photos/seed/150/600",
+    "content": [
+      {
+        "id": 1,
+        "title": "Selamat datang",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea beatae ipsa placeat sed similique est quia dolorum, repellat quo? Voluptatem voluptate facere porro, repudiandae dolorem corporis numquam fuga quidem?",
+        "image": "https://picsum.photos/seed/14/600",
+        "reverse": false
+      },
+      {
+        "id": 2,
+        "title": "Sejarah",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea beatae ipsa placeat sed similique est quia dolorum, repellat quo? Voluptatem voluptate facere porro, repudiandae dolorem corporis numquam fuga quidem?",
+        "image": "https://picsum.photos/seed/300/600",
+        "reverse": true
+      }
+    ],
+    "silabus": [
+      {
+        "id": 1,
+        "title": "UI/UX Design",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse inventore. Iusto similique, omnis assumenda labore quaerat sequi aperiam. Hic dolores inventore sit, magni dolorum dolore ex fugit. Similique, placeat!",
+        "image": "https://picsum.photos/seed/150/300"
+      },
+      {
+        "id": 2,
+        "title": "Frontend",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse inventore. Iusto similique, omnis assumenda labore quaerat sequi aperiam. Hic dolores inventore sit, magni dolorum dolore ex fugit. Similique, placeat!",
+        "image": "https://picsum.photos/seed/243/300"
+      },
+      {
+        "id": 3,
+        "title": "Backend",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse inventore. Iusto similique, omnis assumenda labore quaerat sequi aperiam. Hic dolores inventore sit, magni dolorum dolore ex fugit. Similique, placeat!",
+        "image": "https://picsum.photos/seed/13/300"
+      },
+      {
+        "id": 4,
+        "title": "Devops",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse inventore. Iusto similique, omnis assumenda labore quaerat sequi aperiam. Hic dolores inventore sit, magni dolorum dolore ex fugit. Similique, placeat!",
+        "image": "https://picsum.photos/seed/32/300"
+      }
+    ]
+  },
+  "about": {
+    "hero_title": "Fullstack Javacript selama 8 Bulan",
+    "hero_image": "https://picsum.photos/seed/32/300",
+    "content": [
+      {
+        "id": 1,
+        "title": "Tentang Jvalley",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse inventore. Iusto similique, omnis assumenda labore quaerat sequi aperiam. Hic dolores inventore sit, magni dolorum dolore ex fugit. Similique, placeat!",
+        "reverse": false
+      },
+      {
+        "id": 2,
+        "title": "Silabus Jvalley",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse inventore. Iusto similique, omnis assumenda labore quaerat sequi aperiam. Hic dolores inventore sit, magni dolorum dolore ex fugit. Similique, placeat!",
+        "reverse": true
+      },
+      {
+        "id": 3,
+        "title": "Sistem Belajar Jvalley",
+        "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, esse inventore. Iusto similique, omnis assumenda labore quaerat sequi aperiam. Hic dolores inventore sit, magni dolorum dolore ex fugit. Similique, placeat!",
+        "reverse": false
+      }
+    ]
+  }
+}

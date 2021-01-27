@@ -4,7 +4,7 @@ const Footer = () => {
       style={{
         width: "100vw",
         height: "10vh",
-        backgroundColor: "black",
+        backgroundColor: "gray",
         color: "white",
         display: "flex",
         justifyContent: "center",
