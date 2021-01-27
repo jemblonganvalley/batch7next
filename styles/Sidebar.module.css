@@ -1,0 +1,63 @@
+.sidebar {
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.menu_container {
+  overflow-y: scroll;
+}
+
+.brand_container {
+  width: 100%;
+  height: 150px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  padding: 0 50px;
+}
+
+.brand {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+.sidebar_menu {
+  list-style-type: none;
+  width: 100%;
+  /* height: 150vh; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  /* gap: 20px; */
+}
+
+.sidebar_menu_item {
+  cursor: pointer;
+  /* background-color: orange; */
+  border-bottom-style: dotted;
+  border-bottom-width: 0.2px;
+  width: 100%;
+  height: 60px;
+  /* padding: 0 10px; */
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  font-weight: 200;
+}
+
+.sidebar_menu_item:hover {
+  font-weight: 300;
+}
