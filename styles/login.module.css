@@ -7,33 +7,34 @@
 }
 
 .login_form {
-  width: 30%;
+  width: 30vw;
   height: auto;
-  padding: 30px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  background-color: white;
-  box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.1);
-}
-
-.form_group_select {
-  flex-direction: row;
-}
-
-.form_group button {
-  width: 100%;
-  height: 35px;
-  border: none;
-  outline: none;
-  background-color: gray;
-  color: whitesmoke;
-  font-size: 1rem;
-  font-weight: 200;
+  gap: 10px;
 }
 
 .form_group {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
+}
+
+.form_group button {
+  width: 100%;
+  height: 35px;
+  font-size: 1rem;
+  font-weight: 200;
+  background-color: gray;
+  color: whitesmoke;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+}
+
+.show_password {
+  margin-top: 10px;
 }
