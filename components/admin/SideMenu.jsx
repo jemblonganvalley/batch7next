@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "../../styles/Sidebar.module.css";
 
-const SideMenu = () => {
+export default function SideMenu({ data }) {
   return (
     <div className={styles.sidebar}>
       <div className={styles.brand_container}>
-        <h3 className={styles.brand}>JVALLEY</h3>
+        <h3 className={styles.brand}>{data}</h3>
       </div>
       <div className={styles.menu_container}>
         <div className={styles.sidebar_menu}>
@@ -17,6 +17,10 @@ const SideMenu = () => {
       </div>
     </div>
   );
-};
+}
 
-export default SideMenu;
+SideMenu.getInitialProps = async (ctx) => {
+  return {
+    data: ctx.data,
+  };
+};

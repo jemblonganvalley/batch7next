@@ -9,7 +9,7 @@ const Login = () => {
     const input_username = e.target.username.value;
     const input_password = e.target.password.value;
     // alert(input_username + " " + input_password);
-    fetch("http://35.186.154.72:9000/api/v1/login", {
+    fetch("http://34.87.188.251:8000/api/v1/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -25,6 +25,7 @@ const Login = () => {
           alert(data.pesan);
           localStorage.setItem("token", data.token);
           localStorage.setItem("username", data.data.username);
+          window.location.href = "/admin/dashboard";
         } else {
           alert(data.pesan);
         }

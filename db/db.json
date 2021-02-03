@@ -1,7 +1,7 @@
 {
   "home": {
-    "hero_title": "Selamat datang",
-    "hero_image": "https://picsum.photos/seed/150/900",
+    "hero_title": "Strapi Headless CMS",
+    "hero_image": "https://picsum.photos/seed/13/900",
     "content": [
       {
         "id": 1,
